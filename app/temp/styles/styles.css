@@ -680,7 +680,15 @@ a {
     margin-bottom: 1rem;
   }
 
+.row__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+
 @media (min-width: 800px) {
+
+    .row__b-margin-until-medium {
+      margin-bottom: 0rem;
+    }
 
     .row__b-margin-until-medium {
       margin-bottom: 0;
@@ -707,17 +715,24 @@ a {
     .row__medium-8--smaller {
       width: 63%;
     }
-<<<<<<< HEAD
+
+    .row__medium-8--smaller {
+      width: 63%;
+    }
   }
 
 .generic-content-container p {
     line-height: 1.65;
-    font-size: 1.125rem;
     margin: 1.8rem 0;
+  }
+
+@media (min-width: 530px) {
+
+.generic-content-container p {
+      font-size: 1.125rem
+  }
   }
 
 .generic-content-container p a {
     font-weight: 700;
-=======
->>>>>>> ab81b1cb0e73eee87c6ba0cf974a6b076b5f49ec
   }

@@ -14,7 +14,15 @@
     margin-bottom: 1rem;
   }
 
+  &__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+
   @mixin atMedium{
+
+    &__b-margin-until-medium {
+      margin-bottom: 0rem;
+    }
 
     &__b-margin-until-medium {
       margin-bottom: 0;
