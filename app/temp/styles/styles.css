@@ -695,6 +695,10 @@ a {
       width: 37%;
     }
 
+    .row__medium-4--larger {
+      width: 37%;
+    }
+
     .row__medium-8 {
       float: left;
       width: 66.66%;
@@ -703,6 +707,7 @@ a {
     .row__medium-8--smaller {
       width: 63%;
     }
+<<<<<<< HEAD
   }
 
 .generic-content-container p {
@@ -713,4 +718,6 @@ a {
 
 .generic-content-container p a {
     font-weight: 700;
+=======
+>>>>>>> ab81b1cb0e73eee87c6ba0cf974a6b076b5f49ec
   }
